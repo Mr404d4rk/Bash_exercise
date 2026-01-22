@@ -2,6 +2,8 @@
 Countries=(Myanmar Thai China Indonesia)
 Fruits=('Strawberry' 'Apple' 'Orange')
 
+echo ${#Countries[@]}
+unset Countries[1]
 echo ${Countries[@]}
 echo ${Fruits[0]}
 
